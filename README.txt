@@ -1,1 +1,1 @@
-portfolio project of chinmay narinrekar
+portfolio project of chinmay Naringrekar 
