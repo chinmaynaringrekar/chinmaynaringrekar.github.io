@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Tableau Dashboard</title>
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+
+<body class="is-preload">
+
+    <!-- Wrapper -->
+    <div id="wrapper" class="fade-in">
+
+        <!-- Header -->
+        <header id="header">
+
+        </header>
+
+        <!-- Main Content -->
+        <div id="main">
+
+            <!-- Project Title and Introduction -->
+            <article class="post featured">
+                <header class="major">
+                    <h2>Netflix Tableau Dashboard</h2>
+                    <p>In this project, we explore a Tableau dashboard focused on Netflix data. Users can choose a movie or TV show to view detailed information, explore global Netflix content distribution, and understand trends over the years.</p>
+                </header>
+
+                <!-- Tableau Dashboard Window -->
+                <div class="tableau-dashboard">
+                    <!-- Embed Tableau Dashboard Here (Use the Tableau Embed Code) -->
+                    <!-- Example: <iframe src="YOUR_TABLEAU_EMBED_URL" width="100%" height="600"></iframe> -->
+                    <div class='tableauPlaceholder' id='viz1704519189141' style='position: relative'>
+                        <noscript>
+                            <a href='#'>
+                                <img alt='Netflix ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ne&#47;Netflixdashboardbychinmay&#47;Netflix&#47;1_rss.png' style='border: none' />
+                            </a>
+                        </noscript>
+                        <object class='tableauViz' style='display:none;'>
+                            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                            <param name='embed_code_version' value='3' />
+                            <param name='site_root' value='' />
+                            <param name='name' value='Netflixdashboardbychinmay&#47;Netflix' />
+                            <param name='tabs' value='no' />
+                            <param name='toolbar' value='yes' />
+                            <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ne&#47;Netflixdashboardbychinmay&#47;Netflix&#47;1.png' />
+                            <param name='animate_transition' value='yes' />
+                            <param name='display_static_image' value='yes' />
+                            <param name='display_spinner' value='yes' />
+                            <param name='display_overlay' value='yes' />
+                            <param name='display_count' value='yes' />
+                            <param name='language' value='en-US' />
+                        </object>
+                    </div>
+                    <script type='text/javascript'>
+                        var divElement = document.getElementById('viz1704519189141');
+                        var vizElement = divElement.getElementsByTagName('object')[0];
+                        if (divElement.offsetWidth > 800) {
+                            vizElement.style.width = '100%';
+                            vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+                        } else if (divElement.offsetWidth > 500) {
+                            vizElement.style.width = '100%';
+                            vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+                        } else {
+                            vizElement.style.width = '100%';
+                            vizElement.style.height = '2327px';
+                        }
+                        var scriptElement = document.createElement('script');
+                        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+                    </script>
+                </div>
+            </article>
+
+            <!-- Section 1: Movie/TV Show Details -->
+            <article class="post">
+                <header>
+                    <h3><strong>Movie/TV Show Details</strong></h3>
+                </header>
+                <p>The top section allows users to choose a movie or TV show and view detailed information such as ratings, release year, duration, date added, genre, and description in the top bar.</p>
+            </article>
+
+            <!-- Section 2: Global Netflix Content Distribution Map -->
+            <article class="post">
+                <header>
+                    <h3><strong>Global Netflix Content Distribution Map</strong></h3>
+                </header>
+                <p>Explore a map showcasing the total number of TV shows and movies by countries. The country color gets darker as the content count increases, providing insights into the global distribution of Netflix content.</p>
+            </article>
+
+            <!-- Section 3: Content Distribution by Rating -->
+            <article class="post">
+                <header>
+                    <h3><strong>Content Distribution by Rating</strong></h3>
+                </header>
+                <p>A column chart displays the distribution of content based on ratings such as TV-MA, TV-14, R, and more. Understand the variety of content available on Netflix across different age groups.</p>
+            </article>
+
+            <!-- Section 4: Movies and TV Shows Distribution (Bubble Chart) -->
+            <article class="post">
+                <header>
+                    <h3><strong>Movies and TV Shows Distribution (Bubble Chart)</strong></h3>
+                </header>
+                <p>Two circles, representing a bubble chart, illustrate the distribution of movies and TV shows. Gain insights into the relative abundance of each content type on Netflix.</p>
+            </article>
+
+            <!-- Section 5: Top 10 Genres (Bar Chart) -->
+            <article class="post">
+                <header>
+                    <h3><strong>Top 10 Genres (Bar Chart)</strong></h3>
+                </header>
+                <p>Explore a bar chart showcasing the top 10 genres on Netflix. Understand the popularity of genres and discover trending content categories.</p>
+            </article>
+
+            <!-- Section 6: Total Movies and TV Shows by Year (Area Chart) -->
+            <article class="post">
+                <header>
+                    <h3><strong>Total Movies and TV Shows by Year (Area Chart)</strong></h3>
+                </header>
+                <p>An area chart provides insights into the total number of movies and TV shows on Netflix over the years. Identify trends and patterns in the content library.</p>
+            </article>
+
+        </div>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <!-- Include Your Footer Information -->
+        </footer>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
